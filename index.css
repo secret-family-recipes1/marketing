@@ -102,6 +102,18 @@ width:100%;
     padding: 2rem;
     
 }
+/*About*/
+.about{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    background-color: #ffe4cf;
+}
+.about div{
+    width:40%;
+    padding: 2rem;
+    
+}
 /*Footer section*/
 .end{
     background-color:#DC143C;
