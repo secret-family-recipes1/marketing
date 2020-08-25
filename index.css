@@ -60,10 +60,27 @@ width:100%;
     border-radius: 10px;
     text-decoration: none;
 }
+.login{
+    display:flex;
+   
+    
+    width:10rem;
+    height:15%;
+    margin-top:.5%;
+    margin-left: 80%;
+   
+    
+}
+.login a{
+    background-color: #ffe4cf;
+    padding:.3rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
 /*Body section */
 .hook .p1{
-    font-size: 2.5rem;
-    background-image:url(https://images.freeimages.com/images/small-previews/50b/kitchen-1215308.jpg) ;
+    font-size: 2.7rem;
+    background-image:url(https://images.freeimages.com/images/small-previews/b17/chef-cooking-1383480.jpg) ;
     height:60vh;
     background-size:cover;
     display: flex;
@@ -71,13 +88,13 @@ width:100%;
     text-align: center;
     color:Black ;
     -webkit-text-fill-color: #F5F5F5;
-    -webkit-text-stroke:.5px black;
+    -webkit-text-stroke:.7px black;
 }
 .p1{
     padding:10rem;
 }
 .hook .p2{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     background-image:url(https://media.gettyimages.com/photos/closeup-on-happy-housewife-preparing-christmas-dinner-in-kitchen-picture-id464452179?b=1&k=6&m=464452179&s=612x612&w=0&h=WkFDjWJDaqIVL3QTo0OypElMMvG3MNnVP_fZU9IdSKY=) ;
     height:30vh;
     background-size:cover;
@@ -86,7 +103,7 @@ width:100%;
     text-align: center;
     color:Black ;
     -webkit-text-fill-color: #F5F5F5;
-    -webkit-text-stroke:.5px black;
+    -webkit-text-stroke:.7px black;
 }
 .p2{
     padding:10rem;
@@ -210,6 +227,9 @@ height:30vh;
     padding-bottom: 3rem;
     font-size: 1.8rem;
 }
+.bnav{
+    margin-left: 2rem;
+}
 }
 @media(max-width:500px){
     .brand{
@@ -231,6 +251,7 @@ height:30vh;
     }
     .end .bnav{
        padding:2px solid #DC143C;
+       margin-left: 3rem;
     }
 }
 @media(max-width:320px){
