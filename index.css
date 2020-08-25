@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border:1px solid teal; */
+}
+.html{
+    font-size: 62.5%;
+    
+}
+.body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'PT Sans',sans-serif;
+    color:#444;  
+    background-color: white; 
+    border: 1px white; 
+    width: max-content;
+    margin:0 2rem;
+}
+/*Heading section*/
+.heading{
+    background-color:#DC143C;
+    color:#F5F5F5;
+    display:flex;
+  flex-wrap: wrap;
+  border:3px solid black;
+  height:20vh;
+}
+.brand{
+    display:flex;
+  flex-flow: wrap row;
+  width:34%;
+}
+.brand h1{
+    font-size: 2.3rem;
+width:100%;
+}
+.brand h2{
+    font-size:1.5rem;
+    width:100%
+}
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    width:63%;
+    height:10%;
+    margin-top:5rem;
+    margin-left:.5rem;
+   
+}
+.nav span{
+    display: none;
+}
+.nav a{
+     background-color: #ffe4cf;
+     
+    padding:.3rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*Body section */
+.hook .p1{
+    font-size: 2.5rem;
+    background-image:url(https://images.freeimages.com/images/small-previews/50b/kitchen-1215308.jpg) ;
+    height:60vh;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:Black ;
+    -webkit-text-fill-color: #F5F5F5;
+    -webkit-text-stroke:.5px black;
+}
+.p1{
+    padding:10rem;
+}
+.hook .p2{
+    font-size: 2.5rem;
+    background-image:url(https://media.gettyimages.com/photos/closeup-on-happy-housewife-preparing-christmas-dinner-in-kitchen-picture-id464452179?b=1&k=6&m=464452179&s=612x612&w=0&h=WkFDjWJDaqIVL3QTo0OypElMMvG3MNnVP_fZU9IdSKY=) ;
+    height:30vh;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:Black ;
+    -webkit-text-fill-color: #F5F5F5;
+    -webkit-text-stroke:.5px black;
+}
+.p2{
+    padding:10rem;
+}
+.features{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    background-color: #ffe4cf;
+}
+.features div{
+    width:40%;
+    padding: 2rem;
+    
+}
+/*About*/
+.about{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    background-color: #ffe4cf;
+}
+.about div{
+    width:40%;
+    padding: 2rem;
+    
+}
+/*Footer section*/
+.end{
+    background-color:#DC143C;
+    color:#F5F5F5;
+    display:flex;
+  flex-wrap: wrap;
+  border:3px solid black;
+  
+}
+.end div{
+    padding-right:1rem;
+}
+.bnav{
+    display:flex;
+    justify-content: space-evenly;
+    width:50%;
+    height:10%;
+    margin-top:5rem;
+    margin-left:.5rem;
+   
+}
+.bnav a{
+     background-color: #ffe4cf;
+     
+    padding:.3rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.find{
+    width:10%;
+    
+}
+.find i{
+    font-weight: 400;
+}
+/*@media queries*/
+
+    
+@media(max-width:800px){
+.heading{
+height:30vh;
+    }
+.nav{
+    background-color: #ffe4cf;
+    color:Black ;
+    -webkit-text-fill-color: #F5F5F5;
+    -webkit-text-stroke:.5px black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  display: inline-block;
+  width:6.5rem;
+  border-radius: 1rem;
+}
+.nav span {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown a:hover {
+      background-color: #DC143C
+    }
+.nav:hover .dropdown {
+        display: block;
+  }
+.nav:hover .nav {
+        background-color: #3e8e41;
+    }
+.p1{
+    justify-content: flex-start;
+}
+.p1 p{
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    font-size: 1.8rem;
+}
+.p2 p{
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    font-size: 1.8rem;
+}
+}
+@media(max-width:500px){
+    .brand{
+        width:40%;
+    }
+    .nav{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        width:10rem;
+        margin:4rem auto;
+    }
+    .nav a{
+        width:6rem;
+        
+    }
+    .p1{
+        width: 100%;
+    }
+    .end .bnav{
+       padding:2px solid #DC143C;
+    }
+}
+@media(max-width:320px){
+    .heading{
+        height:50vh;
+    }
+    .hook .p1{
+        height:90vh;
+       width:40%;
+    }
+    .p1 p{
+         font-size: 1rem;
+         
+    }
+}
